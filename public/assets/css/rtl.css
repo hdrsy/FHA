@@ -1,0 +1,77 @@
+
+
+/* Other weights can be defined similarly */
+
+body {
+    direction: rtl;
+}
+
+body, h1, h2, h3,h4,h5, p, li {
+    font-family: 'Tajawal', sans-serif !important;
+}
+
+
+.text-left {
+    text-align: right;
+}
+
+.text-right {
+    text-align: left;
+}
+
+/* Continue with other necessary overrides... */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.main-nav li{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    font-size: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: transparent;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Icon styling */
+.fas {
+    margin-right: 5px;
+}
+
+.tt
+{
+    direction: ltr;
+}
